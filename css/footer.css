@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__div {
+  padding: 0;
+  padding-left: 5%;
+}
+
+.footer__text-3 {
+  display: flex;
+}
+
+.footer__text-3-item {
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.apple-links {
+  color: #08c;
+  text-decoration: none;
+}
+
+.apple-links:hover {
+  color: #08c;
+  text-decoration: underline;
+}
