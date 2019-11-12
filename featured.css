@@ -1,0 +1,8 @@
+.featured {
+  display: flex;
+}
+
+.featured__item__ {
+  width: 100%;
+  height: 193px;
+}
