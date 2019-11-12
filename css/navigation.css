@@ -38,8 +38,8 @@
   color: #fff;
 }
 
-.item__left-most:hover,
-.item__left-most {
+.item__left-most,
+.item__left-most:hover {
   border-radius: 7px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -48,8 +48,8 @@
   color: #fff;
 }
 
-.item__right-most:hover,
-.item__right-most {
+.item__right-most,
+.item__right-most:hover {
   padding-left: 5px;
   border-radius: 7px;
   border-top-left-radius: 0;
