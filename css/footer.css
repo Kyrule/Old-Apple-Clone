@@ -25,3 +25,13 @@
   padding-right: 1rem;
   border-right: 1px solid #ccc;
 }
+
+.apple-links {
+  color: #08c;
+  text-decoration: none;
+}
+
+.apple-links:hover {
+  color: #08c;
+  text-decoration: underline;
+}
