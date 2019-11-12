@@ -13,6 +13,5 @@ You can find the original project specification at: https://www.theodinproject.c
 - Develop with gradient css
 - Develop a simple page
 
-> This is a companion project to The Microverse Six to Eight months Bootcamp, check out the full course at [microverse.org](https://www.microverse.org/)
-
-![End Banner](https://remoters.net/wp-content/uploads/2018/11/microverse.png)
+> This is a companion project to
+> ![End Banner](https://miro.medium.com/max/3150/1*ymMI142YPuGSUCmZIs-EaA.png)
