@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./navigation.css" />
     <title>Apple</title>
@@ -27,7 +31,14 @@
         <a class="item" href="#">iPad</a>
         <a class="item" href="#">iTunes</a>
         <a class="item" href="#">Support</a>
-        <a class="item item__right-most" href="#">Search</a>
+        <a class="item item__right-most" href="#">
+          <form class="search-form">
+            <div class="search-form__input">
+              <i class="fa fa-search"></i>
+            </div>
+            <input type="text" class="search-form__input-search" />
+          </form>
+        </a>
       </nav>
     </div>
   </body>

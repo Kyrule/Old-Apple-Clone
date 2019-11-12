@@ -7,13 +7,13 @@
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(
-    to bottom,
+    to top,
     rgb(100, 100, 100) 50%,
     rgb(124, 124, 124) 50%
   );
   border-radius: 7px;
   height: 40px;
-  width: 50%;
+  width: 55%;
   padding: 0 5px;
   position: relative;
   z-index: 3;
@@ -27,7 +27,7 @@
   text-decoration: none;
   height: 40px;
   line-height: 40px;
-  width: 100px;
+  width: 100%;
   border: 1px solid #555;
   text-align: center;
 }
@@ -46,10 +46,54 @@
 
 .item__right-most:hover,
 .item__right-most {
+  padding-left: 5px;
   border-radius: 7px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   margin-right: -1%;
+  width: 193%;
+}
+
+.search-form {
+  position: relative;
+  color: #fff;
+  border-radius: 20px;
+  padding-top: 1%;
+}
+
+.search-form:focus-within {
+  color: #5f5f5f;
+  width: 100%;
+}
+
+.search-form__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  background: none;
+  border: none;
+  /* padding: 5px; */
+  cursor: pointer;
+}
+
+.search-form__input-search {
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #838383 30%, #5f5f5f);
+  border: 1.3px solid #5f5f5f;
+  height: 25px;
+  width: 75%;
+  padding-left: 25px;
+  display: block;
+  margin-top: 3%;
+}
+
+.search-form__input-search:focus {
+  background: #fff;
+}
+
+.fa-search {
+  margin-top: 3%;
 }
 
 .apple_logo {
